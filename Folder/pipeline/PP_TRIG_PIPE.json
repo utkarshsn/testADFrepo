@@ -431,32 +431,10 @@
 			{
 				"name": "Wait1",
 				"type": "Wait",
-				"dependsOn": [
-					{
-						"activity": "WebHook1",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 120
-				}
-			},
-			{
-				"name": "WebHook1",
-				"type": "WebHook",
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"url": "https://teams.microsoft.com/l/channel/19%3a15e1e9d8e62d418786f60c4fa27ac4c5%40thread.tacv2/General?groupId=c959f13d-a002-4347-b01d-b965ca077706&tenantId=8c3dad1d-b6bc-4f8b-939b-8263372eced6",
-					"method": "POST",
-					"headers": {
-						"Hello": "Hi"
-					},
-					"body": "{'title': 'Update'}",
-					"timeout": "00:10:00"
+					"waitTimeInSeconds": 120
 				}
 			}
 		],
