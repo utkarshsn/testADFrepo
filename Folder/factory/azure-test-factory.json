@@ -1,0 +1,9 @@
+{
+	"name": "azure-test-factory",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8c97e038-dbd7-4f71-bff9-53c9f6f333ce",
+		"tenantId": "60970fd0-5dce-4e4b-9327-402ea26b7ea2"
+	}
+}

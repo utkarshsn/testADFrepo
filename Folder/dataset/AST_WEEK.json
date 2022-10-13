@@ -1,0 +1,183 @@
+{
+	"name": "AST_WEEK",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AST_test",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "lx_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "brand_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "manufacturer_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "retailer_group_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "week_num",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "seg_group_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "segment_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "total_net_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_item_qty",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_mkdn_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_hhds_num",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "total_txns_num",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_carded_txns_num",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "total_carded_net_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "total_carded_item_qty",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "total_carded_mkdn_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "total_margin_1_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_margin_2_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_margin_3_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_carded_margin_1_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_carded_margin_2_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_carded_margin_3_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_cost_1_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_cost_2_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_cost_3_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_carded_cost_1_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_carded_cost_2_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "total_carded_cost_3_amt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 4
+			},
+			{
+				"name": "last_update_ts",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "WEEK_PREBUILD"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

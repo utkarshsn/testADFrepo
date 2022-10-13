@@ -1,0 +1,24 @@
+{
+	"name": "trigger2",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PP_TRIG_PIPE",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/csv-data/blobs/abn-sst-week-postbuild/ABN_RSP_OUT_SST_RETAILERGROUP_SEGAGGR_WEEK_100_1_.gz",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/e2b7c2e1-e8c9-42bc-ae75-13f0da78a759/resourceGroups/azure-test/providers/Microsoft.Storage/storageAccounts/azuredevcmnstorage",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
