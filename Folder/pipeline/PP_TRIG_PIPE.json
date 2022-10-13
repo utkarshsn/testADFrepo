@@ -455,7 +455,7 @@
 					"headers": {
 						"Hello": "Hi"
 					},
-					"body": "hello from body",
+					"body": "{'title': 'Update', 'text': ' -> Started. '}",
 					"timeout": "00:10:00"
 				}
 			}
