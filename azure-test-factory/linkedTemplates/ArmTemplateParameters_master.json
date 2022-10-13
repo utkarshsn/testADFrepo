@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azure-test-factory"
+		},
+		"ABS_test_connectionString": {
+			"value": ""
+		},
+		"AST_test_connectionString": {
+			"value": ""
+		},
+		"trigger2_properties_typeProperties_scope": {
+			"value": "/subscriptions/e2b7c2e1-e8c9-42bc-ae75-13f0da78a759/resourceGroups/azure-test/providers/Microsoft.Storage/storageAccounts/azuredevcmnstorage"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
